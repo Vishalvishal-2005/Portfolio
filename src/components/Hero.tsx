@@ -56,7 +56,7 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode }) => {
       <div className="container mx-auto px-4 z-10">
         <div className="flex flex-col md:flex-row items-center justify-center gap-12 max-w-6xl mx-auto">
           {/* Profile Image */}
-          <div className="w-48 h-48 md:w-64 md:h-64 relative">
+          <div className="w-48 h-48 md:w-64 md:h-54 relative">
             <img
               src={personalInfo.profileImage}
               alt={personalInfo.name}
