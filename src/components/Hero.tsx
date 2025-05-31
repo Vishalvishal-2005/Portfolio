@@ -56,11 +56,11 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode }) => {
       <div className="container mx-auto px-4 z-10">
         <div className="flex flex-col md:flex-row items-center justify-center gap-12 max-w-6xl mx-auto">
           {/* Profile Image */}
-          <div className="w-48 h-48 md:w-64 md:h-54 relative">
+          <div className="w-48 h-48 md:w-64 md:h-64 relative">
             <img
               src={personalInfo.profileImage}
               alt={personalInfo.name}
-              className="rounded-full object-cover w-full h-full shadow-xl ring-4 ring-teal-400/30"
+              className="rounded-full object-cover w-full h-full shadow-xl ring-3 ring-teal-400/30"
             />
             <div className={`absolute inset-0 rounded-full ${
               isDarkMode ? 'bg-teal-400/10' : 'bg-blue-400/10'
