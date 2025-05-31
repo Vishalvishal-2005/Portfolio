@@ -11,7 +11,7 @@ export const personalInfo = {
   leetcode: "https://leetcode.com/u/VISHALP2005",
   geeksforgeeks: "https://geeksforgeeks.org/user/727822t4465/",
   summary: "I am passionate about leveraging technology to create impactful and efficient systems, with a particular interest in machine learning, data-driven insights, and problem-solving.",
-  profileImage: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" // Replace with your actual image URL
+  profileImage: "/WhatsApp Image 2025-05-31 at 17.40.28_6f1bf0f2.jpg"
 };
 
 export const education: EducationItem[] = [
